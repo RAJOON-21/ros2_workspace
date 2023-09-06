@@ -1,0 +1,27 @@
+[1.206s] Invoking command in '/home/rajana/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/rajana/ros2_ws/build/my_py_pkg/prefix_override:/home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rajana/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[1.407s] running develop
+[1.437s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.438s]   warnings.warn(
+[1.458s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.459s]   warnings.warn(
+[1.583s] running egg_info
+[1.583s] writing my_py_pkg.egg-info/PKG-INFO
+[1.583s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.584s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.584s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.584s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.745s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.768s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.770s] running build_ext
+[1.771s] Creating /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.774s] Installing add_two_ints_client_no_oop script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.775s] Installing add_two_ints_server script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.775s] Installing number_counter script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.775s] Installing number_publisher script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.775s] Installing py_node script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.776s] Installing robot_news_station script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.776s] Installing smartphone script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.776s] 
+[1.776s] Installed /home/rajana/ros2_ws/build/my_py_pkg
+[1.776s] running install_data
+[1.802s] Invoked command in '/home/rajana/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/rajana/ros2_ws/build/my_py_pkg/prefix_override:/home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rajana/ros2_ws/build/my_py_pkg/build --no-deps install_data

@@ -1,0 +1,9 @@
+[0.012s] Invoking command in '/home/rajana/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rajana/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rajana/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.037s] [31mCMake Error at CMakeLists.txt:24:
+[0.037s]   Parse error.  Expected a command name, got unquoted argument with text ";".
+[0.037s] 
+[0.038s] [0m
+[0.038s] -- Configuring incomplete, errors occurred!
+[0.038s] See also "/home/rajana/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.039s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.042s] Invoked command in '/home/rajana/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rajana/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rajana/ros2_ws/build/my_cpp_pkg -- -j8 -l8

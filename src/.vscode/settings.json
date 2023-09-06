@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/home/rajana/ros2_ws/src/my_cpp_pkg",
+    "files.associations": {
+        "functional": "cpp"
+    }
+}

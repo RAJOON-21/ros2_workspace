@@ -1,0 +1,51 @@
+[0.477s] Invoking command in '/home/rajana/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/rajana/ros2_ws/build/my_py_pkg/prefix_override:/home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/rajana/ros2_ws/build/my_py_pkg/build
+[0.667s] running develop
+[0.667s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.667s]   warnings.warn(
+[0.668s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.668s]   warnings.warn(
+[0.775s] Removing /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.803s] Invoked command in '/home/rajana/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/rajana/ros2_ws/build/my_py_pkg/prefix_override:/home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/rajana/ros2_ws/build/my_py_pkg/build
+[0.803s] Invoking command in '/home/rajana/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/rajana/ros2_ws/build/my_py_pkg/prefix_override:/home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/rajana/ros2_ws/build/my_py_pkg/build install --record /home/rajana/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.970s] running egg_info
+[0.971s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.971s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.972s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.972s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.972s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.974s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.975s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.975s] running build
+[0.975s] running build_py
+[0.975s] copying my_py_pkg/number_publisher.py -> /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.975s] copying my_py_pkg/my_first_node.py -> /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.975s] copying my_py_pkg/robot_news_station.py -> /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.976s] copying my_py_pkg/smartphone.py -> /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.976s] copying my_py_pkg/template_python_node.py -> /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.976s] running install
+[0.976s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.976s]   warnings.warn(
+[0.976s] running install_lib
+[0.977s] creating /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.977s] copying /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.977s] copying /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.977s] copying /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.977s] copying /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.977s] copying /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.977s] copying /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.977s] byte-compiling /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[0.977s] byte-compiling /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[0.978s] byte-compiling /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[0.978s] byte-compiling /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[0.978s] byte-compiling /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[0.978s] byte-compiling /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-310.pyc
+[0.979s] running install_data
+[0.979s] running install_egg_info
+[0.980s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.022s] running install_scripts
+[1.046s] Installing number_publisher script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.047s] Installing py_node script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.047s] Installing robot_news_station script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.047s] Installing smartphone script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.047s] writing list of installed files to '/home/rajana/ros2_ws/build/my_py_pkg/install.log'
+[1.067s] Invoked command in '/home/rajana/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/rajana/ros2_ws/build/my_py_pkg/prefix_override:/home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/rajana/ros2_ws/build/my_py_pkg/build install --record /home/rajana/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

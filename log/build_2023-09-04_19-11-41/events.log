@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000250] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000423] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099915] (-) TimerEvent: {}
+[0.200454] (-) TimerEvent: {}
+[0.301021] (-) TimerEvent: {}
+[0.401530] (-) TimerEvent: {}
+[0.502088] (-) TimerEvent: {}
+[0.602538] (-) TimerEvent: {}
+[0.702816] (-) TimerEvent: {}
+[0.803202] (-) TimerEvent: {}
+[0.903761] (-) TimerEvent: {}
+[1.004278] (-) TimerEvent: {}
+[1.104731] (-) TimerEvent: {}
+[1.205143] (-) TimerEvent: {}
+[1.305703] (-) TimerEvent: {}
+[1.406217] (-) TimerEvent: {}
+[1.506717] (-) TimerEvent: {}
+[1.607103] (-) TimerEvent: {}
+[1.707412] (-) TimerEvent: {}
+[1.807833] (-) TimerEvent: {}
+[1.908130] (-) TimerEvent: {}
+[2.008600] (-) TimerEvent: {}
+[2.108880] (-) TimerEvent: {}
+[2.209294] (-) TimerEvent: {}
+[2.309735] (-) TimerEvent: {}
+[2.410245] (-) TimerEvent: {}
+[2.510762] (-) TimerEvent: {}
+[2.611297] (-) TimerEvent: {}
+[2.711848] (-) TimerEvent: {}
+[2.812374] (-) TimerEvent: {}
+[2.912861] (-) TimerEvent: {}
+[3.013250] (-) TimerEvent: {}
+[3.113686] (-) TimerEvent: {}
+[3.214175] (-) TimerEvent: {}
+[3.314678] (-) TimerEvent: {}
+[3.415195] (-) TimerEvent: {}
+[3.515619] (-) TimerEvent: {}
+[3.616015] (-) TimerEvent: {}
+[3.716535] (-) TimerEvent: {}
+[3.817039] (-) TimerEvent: {}
+[3.917507] (-) TimerEvent: {}
+[4.017947] (-) TimerEvent: {}
+[4.118405] (-) TimerEvent: {}
+[4.218891] (-) TimerEvent: {}
+[4.319393] (-) TimerEvent: {}
+[4.419861] (-) TimerEvent: {}
+[4.520278] (-) TimerEvent: {}
+[4.620684] (-) TimerEvent: {}
+[4.721178] (-) TimerEvent: {}
+[4.821641] (-) TimerEvent: {}
+[4.922130] (-) TimerEvent: {}
+[5.022662] (-) TimerEvent: {}
+[5.123200] (-) TimerEvent: {}
+[5.223757] (-) TimerEvent: {}
+[5.324277] (-) TimerEvent: {}
+[5.424765] (-) TimerEvent: {}
+[5.525297] (-) TimerEvent: {}
+[5.625835] (-) TimerEvent: {}
+[5.726366] (-) TimerEvent: {}
+[5.826878] (-) TimerEvent: {}
+[5.927416] (-) TimerEvent: {}
+[6.027972] (-) TimerEvent: {}
+[6.128433] (-) TimerEvent: {}
+[6.228780] (-) TimerEvent: {}
+[6.329249] (-) TimerEvent: {}
+[6.429811] (-) TimerEvent: {}
+[6.530347] (-) TimerEvent: {}
+[6.630894] (-) TimerEvent: {}
+[6.731315] (-) TimerEvent: {}
+[6.831867] (-) TimerEvent: {}
+[6.932400] (-) TimerEvent: {}
+[7.032961] (-) TimerEvent: {}
+[7.133481] (-) TimerEvent: {}
+[7.234033] (-) TimerEvent: {}
+[7.334569] (-) TimerEvent: {}
+[7.435120] (-) TimerEvent: {}
+[7.535679] (-) TimerEvent: {}
+[7.636215] (-) TimerEvent: {}
+[7.736729] (-) TimerEvent: {}
+[7.837256] (-) TimerEvent: {}
+[7.937750] (-) TimerEvent: {}
+[8.038255] (-) TimerEvent: {}
+[8.138806] (-) TimerEvent: {}
+[8.239328] (-) TimerEvent: {}
+[8.706760] (-) TimerEvent: {}
+[8.807251] (-) TimerEvent: {}
+[8.946051] (-) TimerEvent: {}
+[9.046543] (-) TimerEvent: {}
+[9.147094] (-) TimerEvent: {}
+[9.205878] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rajana/ros2_ws/build/my_py_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/rajana/ros2_ws/build/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rajana', 'LC_TIME': 'si_LK', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rajana', 'OLDPWD': '/home/rajana', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'si_LK', 'MANAGERPID': '1641', 'SYSTEMD_EXEC_PID': '1806', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '120356', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rajana/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rajana', 'JOURNAL_STREAM': '8:31621', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rajana', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rajana-HP-Pavilion-Laptop-15-cs3xxx:@/tmp/.ICE-unix/1787,unix/rajana-HP-Pavilion-Laptop-15-cs3xxx:/tmp/.ICE-unix/1787', 'INVOCATION_ID': 'cca8cd17495945288f1e73acbbc4aeb0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'si_LK', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'si_LK', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.L6RZA2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rajana/ros2_ws/install/my_py_pkg:/home/rajana/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'si_LK', 'TERMINATOR_UUID': 'urn:uuid:2e098237-b12b-4a60-9b2d-0c1eedd566a2', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'si_LK', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'si_LK', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rajana/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rajana/ros2_ws/build/my_py_pkg/prefix_override:/home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/rajana/ros2_ws/build/my_py_pkg:/home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'si_LK', 'LC_PAPER': 'si_LK', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/rajana/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[9.247230] (-) TimerEvent: {}
+[9.347513] (-) TimerEvent: {}
+[9.386442] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[9.447771] (-) TimerEvent: {}
+[9.471405] (my_py_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.471730] (my_py_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.535676] (my_py_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.535990] (my_py_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.548009] (-) TimerEvent: {}
+[9.648442] (-) TimerEvent: {}
+[9.717789] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[9.717948] (my_py_pkg) StdoutLine: {'line': b'writing my_py_pkg.egg-info/PKG-INFO\n'}
+[9.718024] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_py_pkg.egg-info/dependency_links.txt\n'}
+[9.718221] (my_py_pkg) StdoutLine: {'line': b'writing entry points to my_py_pkg.egg-info/entry_points.txt\n'}
+[9.718324] (my_py_pkg) StdoutLine: {'line': b'writing requirements to my_py_pkg.egg-info/requires.txt\n'}
+[9.718399] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to my_py_pkg.egg-info/top_level.txt\n'}
+[9.748713] (-) TimerEvent: {}
+[9.849202] (-) TimerEvent: {}
+[9.949737] (-) TimerEvent: {}
+[10.031743] (my_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[10.049947] (-) TimerEvent: {}
+[10.104720] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[10.107110] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[10.107630] (my_py_pkg) StdoutLine: {'line': b'Creating /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[10.109223] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[10.109650] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[10.110089] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[10.110308] (my_py_pkg) StdoutLine: {'line': b'Installed /home/rajana/ros2_ws/build/my_py_pkg\n'}
+[10.110442] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[10.150100] (-) TimerEvent: {}
+[10.151065] (my_py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/rajana/ros2_ws/install/my_py_pkg/share/my_py_pkg\n'}
+[10.183692] (my_py_pkg) CommandEnded: {'returncode': 0}
+[10.250251] (-) TimerEvent: {}
+[10.350777] (-) TimerEvent: {}
+[10.451325] (-) TimerEvent: {}
+[10.551889] (-) TimerEvent: {}
+[10.652316] (-) TimerEvent: {}
+[10.752722] (-) TimerEvent: {}
+[10.853244] (-) TimerEvent: {}
+[11.226426] (-) TimerEvent: {}
+[11.326978] (-) TimerEvent: {}
+[11.344725] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[11.346105] (-) EventReactorShutdown: {}

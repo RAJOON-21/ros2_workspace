@@ -1,0 +1,23 @@
+[9.210s] Invoking command in '/home/rajana/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/rajana/ros2_ws/build/my_py_pkg/prefix_override:/home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rajana/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[9.386s] running develop
+[9.471s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.471s]   warnings.warn(
+[9.535s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.536s]   warnings.warn(
+[9.717s] running egg_info
+[9.718s] writing my_py_pkg.egg-info/PKG-INFO
+[9.718s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[9.718s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[9.718s] writing requirements to my_py_pkg.egg-info/requires.txt
+[9.718s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[10.032s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[10.104s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[10.107s] running build_ext
+[10.107s] Creating /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[10.109s] Installing py_node script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[10.109s] Installing robot_news_station script to /home/rajana/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[10.110s] 
+[10.110s] Installed /home/rajana/ros2_ws/build/my_py_pkg
+[10.110s] running install_data
+[10.151s] copying package.xml -> /home/rajana/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[10.183s] Invoked command in '/home/rajana/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/rajana/ros2_ws/build/my_py_pkg/prefix_override:/home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/rajana/ros2_ws/build/my_py_pkg/build --no-deps install_data

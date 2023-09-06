@@ -1,0 +1,35 @@
+[1.857s] Invoking command in '/home/rajana/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/rajana/ros2_ws/build/my_py_pkg/prefix_override:/home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/rajana/ros2_ws/build/my_py_pkg/build install --record /home/rajana/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.070s] running egg_info
+[2.070s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[2.071s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.071s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.071s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.071s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.071s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.251s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.255s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.257s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.257s] running build
+[2.257s] running build_py
+[2.257s] creating /home/rajana/ros2_ws/build/my_py_pkg/build
+[2.258s] creating /home/rajana/ros2_ws/build/my_py_pkg/build/lib
+[2.258s] creating /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.258s] copying my_py_pkg/__init__.py -> /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.258s] running install
+[3.152s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.152s]   warnings.warn(
+[3.152s] running install_lib
+[3.153s] creating /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.154s] copying /home/rajana/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.154s] byte-compiling /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[3.154s] running install_data
+[3.155s] creating /home/rajana/ros2_ws/install/my_py_pkg/share/ament_index
+[3.155s] creating /home/rajana/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[3.155s] creating /home/rajana/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.155s] copying resource/my_py_pkg -> /home/rajana/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.155s] copying package.xml -> /home/rajana/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[3.155s] running install_egg_info
+[3.157s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[3.158s] running install_scripts
+[3.178s] writing list of installed files to '/home/rajana/ros2_ws/build/my_py_pkg/install.log'
+[3.200s] Invoked command in '/home/rajana/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/rajana/ros2_ws/build/my_py_pkg/prefix_override:/home/rajana/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/rajana/ros2_ws/build/my_py_pkg/build install --record /home/rajana/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
